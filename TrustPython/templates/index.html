@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>TrustPython</h1>
+    <p class="lead">This is a Flask application to showcase how to make requests to sites with untrusted root authorities in Python</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Requests</h2>
+        <p>Example of a request properly configured</p>
+        <p><a class="btn btn-default" href="{{url_for('call_requests')}}">See it in action &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Fail Requests</h2>
+        <p>This one will fail</p>
+        <p><a class="btn btn-default" href="{{url_for('fail_request')}}">See it in action &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>urllib</h2>
+        <p>this is where I would put a urllib solution... IF I HAD ONE</p>
+        <p><a class="btn btn-default" href="{{url_for('home')}}">See it in action &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
