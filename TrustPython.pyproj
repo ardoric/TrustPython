@@ -33,6 +33,7 @@
     <Compile Include="TrustPython\views.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="TrustPython\" />
     <Folder Include="TrustPython\static\" />
     <Folder Include="TrustPython\static\content\" />
@@ -41,6 +42,7 @@
     <Folder Include="TrustPython\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\athleticsense - Web Deploy.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="badssl.crt" />
     <Content Include="TrustPython\static\content\bootstrap.css" />
